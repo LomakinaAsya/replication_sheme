@@ -1,0 +1,14 @@
+[package]
+name = "replication"
+version = "0.1.0"
+edition = "2022"
+
+[lib]
+name = "libs"
+path = "src/libs/mod.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "1.4"
+prettytable-rs = "^0.8"
